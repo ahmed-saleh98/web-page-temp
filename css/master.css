@@ -832,9 +832,24 @@ h2{
 }
 /* end footer */
 /* Start Grid System */
-@media (min-width: 570px){
+@media (min-width: 250px){
     .container{
-        max-width: 540px;
+        max-width: 220px;
+    }
+}
+@media (min-width: 350px){
+    .container{
+        max-width: 320px;
+    }
+}
+@media (min-width: 450px){
+    .container{
+        max-width: 420px;
+    }
+}
+@media (min-width: 550px){
+    .container{
+        max-width: 530px;
     }
 }
 @media (min-width: 760px){
