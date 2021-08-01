@@ -817,32 +817,41 @@ h2{
     transition: .3s;
 }
 /* end contact us */
-/* start footer */
-footer{
-    background-color: var(--main-color--);
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    padding: 20px;
+/* Start made by */
+.made-by {
+  padding: 15px 0;
+  color: black;
+  background-color: var(--main-color);
+  font-weight: bold;
 }
-footer a{
-    text-decoration: none;
-    color: rgb(8, 8, 8);
-    font-size:20px;
+.made-by ul {
+  margin: 0;
 }
-footer .ftIcons{
-    text-align: center;
+.made-by ul li {
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 22px;
 }
-footer img{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 2px solid black;
-    margin-top: 10px;
-    margin-right: 10px;
+.made-by ul li svg {
+  color: black;
+}
+.made-by ul li .fa-facebook:hover {
+  color: #0f90f3;
+}
+.made-by ul li .fa-twitter:hover {
+  color: #00a9e8;
+}
+.made-by ul li .fa-whatsapp:hover {
+  color: #4bc658;
+}
+.made-by ul li .fa-linkedin:hover {
+  color: #0270ad;
+}
+.made-by ul li .fa-google-plus:hover {
+  color: #ca1e1c;
+}
+/* End made by */
 
-}
-/* end footer */
 /* Start Grid System */
 @media (min-width: 250px){
     .container{
